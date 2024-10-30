@@ -1,0 +1,19 @@
+import java.util.Scanner;
+import java.util.Random;
+
+public class MyProgram
+{
+    public static void main(String[] args)
+    {
+        boolean Go_again=true
+        while  (Go_again==true) {
+        Scanner stuff = new Scanner(System.in);
+        System.out.println("Shake (say yes or no): ");
+        String yes_or_no = stuff.nextLine();
+        if (yes_or_no=="no") {
+            Go_again=false
+        }
+        String[] output = {"yes", "no"};
+        }
+    }
+}
